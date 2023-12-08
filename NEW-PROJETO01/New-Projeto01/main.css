@@ -1,0 +1,47 @@
+main section{
+    background-color: grey;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2 px solid black;
+    max-width: 800px;
+}
+main h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+main p{
+    font-size: 16px;
+}
+.test1{
+    border: 2px solid black;
+    max-height: 400px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+section div{
+    flex: 1;
+    padding: 20px;
+}
+section img{
+    max-width: 50%;
+    height: auto;
+}
+.saiba-mais{
+    border: 2px solid black;
+    display: inline-block;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 6px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.saiba-mais:hover{
+    border: 2px solid gainsboro;
+    background-color: gainsboro;
+}
